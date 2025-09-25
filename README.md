@@ -33,8 +33,8 @@ A modern, professional landing page for Shira's Cakes - a custom cake business r
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd shiras-cakes
+git clone https://github.com/tzur071096/WebSite-V2.git
+cd WebSite-V2
 ```
 
 2. Install dependencies:
@@ -64,7 +64,7 @@ npm run dev
 ## Project Structure
 
 ```
-shiras-cakes/
+WebSite-V2/
 ├── src/
 │   ├── app/
 │   │   ├── api/
