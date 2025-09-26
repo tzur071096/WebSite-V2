@@ -47,7 +47,7 @@ export default function Footer() {
               </p>
               <div className="flex space-x-4">
                 <a
-                  href="https://www.instagram.com/shirascakes/"
+                  href="https://www.instagram.com/shirascakes/p/DO_Kk7djVLN/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors"

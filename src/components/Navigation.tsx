@@ -40,7 +40,7 @@ export default function Navigation() {
           </div>
           <div className="flex items-center space-x-4">
             <a
-              href="https://www.instagram.com/shirascakes/"
+              href="https://www.instagram.com/shirascakes/p/DO_Kk7djVLN/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary-200 transition-colors"

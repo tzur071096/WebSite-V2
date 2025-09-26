@@ -62,7 +62,7 @@ export default function Contact() {
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Follow Us</h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://www.instagram.com/shirascakes/"
+                  href="https://www.instagram.com/shirascakes/p/DO_Kk7djVLN/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105"
