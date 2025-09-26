@@ -81,9 +81,18 @@ export default function Hero() {
               <Star className="h-6 w-6 text-primary-300" />
             </div>
             
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              <span className="text-primary-300">Our Portfolio</span>
-            </h1>
+            <div className="flex items-center space-x-4 mb-6">
+              <Image
+                src="/images/logo.jpg"
+                alt="Shira's Cakes Logo"
+                width={80}
+                height={80}
+                className="rounded-full border-4 border-primary-300"
+              />
+              <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
+                <span className="text-primary-300">Our Portfolio</span>
+              </h1>
+            </div>
             
             <p className="text-xl lg:text-2xl mb-8 text-gray-200 leading-relaxed">
               Explore our collection of beautiful custom cakes and baked goods. 
