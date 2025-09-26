@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { Phone, MapPin, Instagram, Facebook, MessageCircle } from 'lucide-react';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -25,48 +24,6 @@ export default function Navigation() {
 
   return (
     <>
-      {/* Top Bar */}
-      <div className="bg-primary-600 text-white py-2 px-4">
-        <div className="max-w-7xl mx-auto flex justify-between items-center text-sm">
-          <div className="flex items-center space-x-6">
-            <div className="flex items-center space-x-2">
-              <Phone className="h-4 w-4" />
-              <span>+1 214.677.6273</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <MapPin className="h-4 w-4" />
-              <span>Plano, TX, 75025</span>
-            </div>
-          </div>
-          <div className="flex items-center space-x-4">
-            <a
-              href="https://www.instagram.com/shirascakes/p/DO_Kk7djVLN/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-primary-200 transition-colors"
-            >
-              <Instagram className="h-4 w-4" />
-            </a>
-            <a
-              href="https://www.facebook.com/cakesbyshira"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-primary-200 transition-colors"
-            >
-              <Facebook className="h-4 w-4" />
-            </a>
-            <a
-              href="https://wa.me/12146776273"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-primary-200 transition-colors"
-            >
-              <MessageCircle className="h-4 w-4" />
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Main Navigation */}
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled ? 'bg-white shadow-lg' : 'bg-transparent'
