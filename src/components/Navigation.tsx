@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,18 +30,11 @@ export default function Navigation() {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
-            <div className="flex items-center space-x-3">
-              <Image
-                src="/images/logo.jpg"
-                alt="Shira&apos;s Cakes Logo"
-                width={50}
-                height={50}
-                className="rounded-full"
-              />
+            <div className="flex items-center">
               <span className={`text-2xl font-bold ${
                 isScrolled ? 'text-primary-600' : 'text-white'
               }`}>
-                Shira&apos;s Cakes
+                Our Portfolio.
               </span>
             </div>
 
