@@ -82,13 +82,12 @@ export default function Hero() {
             </div>
             
             <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Welcome to{' '}
-              <span className="text-primary-300">Shira&apos;s Cakes</span>
+              <span className="text-primary-300">Our Portfolio</span>
             </h1>
             
             <p className="text-xl lg:text-2xl mb-8 text-gray-200 leading-relaxed">
-              Custom cakes and baked goods for every special occasion. 
-              From birthdays to weddings, I bring your sweetest dreams to life.
+              Explore our collection of beautiful custom cakes and baked goods. 
+              From birthdays to weddings, discover the artistry behind every creation.
             </p>
 
             <div className="flex items-center space-x-4 text-lg">
